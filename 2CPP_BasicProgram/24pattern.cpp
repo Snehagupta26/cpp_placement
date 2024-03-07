@@ -7,14 +7,15 @@ int main(){
     int i = 1;
     while(i <= n){
         int j = 1;
-        while( j <= n){
-            cout<<abcd<<" ";
+        while( j <= i){
+            cout<<abcd + n - i<<" ";
             abcd++;
             j++;
         }
+        
         cout<<endl;
-        abcd = abcd - 2;
+        
         i++;
     }
 }
-//A + i + j -2
+//wrong
